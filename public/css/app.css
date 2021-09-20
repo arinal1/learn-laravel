@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #F1F1F1 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+form .row {
+    justify-content: center;
+}
+
+form .row .col {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+form hr {
+    width: 50%;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+}
+
+.container.content {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.divider-vertical {
+    border-right: 1px solid rgba(0, 0, 0, .125);
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+#btn-reset {
+    margin-right: 20px;
+}
